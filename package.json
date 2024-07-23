@@ -3,24 +3,21 @@
   "description": "NAICS API",
   "version": "0.0.1",
   "private": true,
-  "engines": {
-    "node": "0.10.x",
-    "npm":  "1.2.x"
-  },
   "dependencies": {
     "config": "0.4.x",
-    "requireindex" : "1.0.x",
-    "restify" : "11.1.x",
     "naics-2007": "0.0.4",
-    "naics-2012": "0.0.3"
+    "naics-2012": "0.0.3",
+    "requireindex": "1.0.x",
+    "restify": "11.1.x",
+    "restify-cors-middleware": "^1.1.1"
   },
   "devDependencies": {
     "jasmine-node": "1.6.x",
     "request": "2.88.x"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/louh/naics-api.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louh/naics-api.git"
   },
   "scripts": {
     "start": "node server.js"
