@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"config@npm:0.4.x":
+"config@npm:^0.4.37":
   version: 0.4.37
   resolution: "config@npm:0.4.37"
   checksum: ea30338f356ab08200ff2b6fb719475ccf91ab325e838fac6865ce357e48c0a213d83ffdccafc406f1ab2ff0fb484fbfafea50ed51b1a78a8c5151d24a24739e
@@ -1063,7 +1063,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jasmine-node@npm:1.6.x":
+"jasmine-node@npm:1.6.0":
   version: 1.6.0
   resolution: "jasmine-node@npm:1.6.0"
   dependencies:
@@ -1408,13 +1408,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "naics-api@workspace:."
   dependencies:
-    config: "npm:0.4.x"
-    jasmine-node: "npm:1.6.x"
+    config: "npm:^0.4.37"
+    jasmine-node: "npm:1.6.0"
     naics-2007: "npm:0.0.4"
     naics-2012: "npm:0.0.3"
-    request: "npm:2.88.x"
-    requireindex: "npm:1.0.x"
-    restify: "npm:11.1.x"
+    request: "npm:^2.88.2"
+    requireindex: "npm:1.0.1"
+    restify: "npm:^11.1.0"
     restify-cors-middleware: "npm:^1.1.1"
   languageName: unknown
   linkType: soft
@@ -1727,7 +1727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"request@npm:2.88.x":
+"request@npm:^2.88.2":
   version: 2.88.2
   resolution: "request@npm:2.88.2"
   dependencies:
@@ -1755,7 +1755,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"requireindex@npm:1.0.x":
+"requireindex@npm:1.0.1":
   version: 1.0.1
   resolution: "requireindex@npm:1.0.1"
   checksum: 19ea94340541d59b4563280b3dee7ff24c49c433eb4b53782a27cf1a0439802dc49926663369811a997b5c389aca5b741f522f07f236105036c2aa6b42c94337
@@ -1798,7 +1798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"restify@npm:11.1.x":
+"restify@npm:^11.1.0":
   version: 11.1.0
   resolution: "restify@npm:11.1.0"
   dependencies:
